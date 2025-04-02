@@ -11,9 +11,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0);
 
-  const [ code, setCode ] = useState(` function sum() {
-    return 1 + 1
-  }`);
+  const [ code, setCode ] = useState(`//enter your code here`);
 
   const [ review, setReview ] = useState(``)
 
