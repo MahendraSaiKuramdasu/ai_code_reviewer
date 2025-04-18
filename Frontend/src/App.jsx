@@ -11,9 +11,9 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0);
 
-  const [ code, setCode ] = useState(`//enter your code here, After writing the code.
-  Click review button in the bottom.
-  The review of the code will be displayed in the right portion`);
+  const [ code, setCode ] = useState(`// Enter your code here, After writing the code.
+  // Click review button in the bottom.
+  // The review of the code will be displayed in the right portion`);
 
   const [ review, setReview ] = useState(``)
 
