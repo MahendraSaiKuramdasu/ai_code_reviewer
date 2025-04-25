@@ -47,7 +47,10 @@ function App() {
             />
         </div>
         <div 
-        onClick={reviewCode}
+        onClick={() => { 
+          setReview("Loading...");
+          reviewCode(); 
+        }}
         className="review">Review</div>
       </div>
       <div className="right">
